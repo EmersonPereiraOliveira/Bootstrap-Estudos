@@ -1,3 +1,7 @@
+body{
+    margin-top: 50px;
+}
+
 .p-trinta{
     padding-top: 30px;
 }
@@ -15,6 +19,13 @@
 
 .navbar li:hover{
     background: #E7E7E7;
+}
+
+li.logar{
+    background: #CA2129;
+    margin-bottom: -10px;
+    padding-right: 22px;
+    padding-left: 22px;
 }
 
 .jumbotron-imagem{
@@ -101,4 +112,23 @@
 
 .panel-default > .panel-heading{
     background: #2E98CC;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+    background: #CA2129;
+    border: 1px solid #CA2129;;
+}
+
+.grey-list .list-group-item.active, .grey-list .list-group-item.active:focus,.grey-list .list-group-item.active:hover{
+    background: #F4F4F4;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+}
+
+footer{
+    padding: 15px 0;
+    background: #F4F4F4;
+    text-align: center;
+    font-weight: bold;
+
 }
